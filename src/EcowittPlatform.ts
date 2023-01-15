@@ -186,8 +186,7 @@ export class EcowittPlatform implements DynamicPlatformPlugin {
 
     if (Array.isArray(modelInfo)) {
       switch (modelInfo[1]) {
-        case 'GW1000':
-        case 'GW1000B':
+        case 'GW1000','GW1000B':
           this.baseStationInfo.hardwareRevision = dataReport.stationtype;
           this.baseStationInfo.firmwareRevision = stationTypeInfo[2];
           if (!this.config?.thbin?.hide) {
