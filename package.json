@@ -2,15 +2,15 @@
   "private": false,
   "displayName": "Homebridge Ecowitt",
   "name": "homebridge-ecowitt",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Provides support for a wide range of Ecowitt sensors.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/spatialdude/homebridge-ecowitt.git"
+    "url": "git://github.com/daryel/homebridge-ecowitt.git"
   },
   "bugs": {
-    "url": "https://github.com/spatialdude/homebridge-ecowitt/issues"
+    "url": "https://github.com/daryel/homebridge-ecowitt/issues"
   },
   "engines": {
     "node": ">=10.17.0",
